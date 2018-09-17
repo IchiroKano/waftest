@@ -1,0 +1,16 @@
+mysql> select * from users;
++------+---------+--------------------+
+| uid  | passwd  | email              |
++------+---------+--------------------+
+| 1    | kano    | hoge1@asahi.jp     |
+| 2    | parking | hoge2@asahi.jp     |
+| 3    | signal  | hoge3@asahi.jp     |
+| 4    | signal  | hoge4@asahi.jp     |
+| 5    | signal  | hoge5@asahi.jp     |
+| 6    | signal  | hoge6@asahi.jp     |
+| 9    | signal  | hoge9@asahi.jp     |
+| 10   | signal  | ダメじゃん。       |
+| 11   | signal  | Oops!! NoGood!!    |
++------+---------+--------------------+
+9 rows in set (0.00 sec)
+
