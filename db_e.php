@@ -5,7 +5,7 @@
   </head>
   <body>
 <?php
-$conn = mysql_connect('localhost', 'root', 'Sql-2018');
+$conn = mysql_connect('localhost', 'root', 'Sqlpassw0rd!!');
 $db = mysql_select_db('system', $conn);
  
 $uid = $_POST['uid'];
